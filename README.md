@@ -1,24 +1,10 @@
 # card-gallery
 
+Following this tutorial [here](https://travishorn.com/creating-a-photo-gallery-with-vue-css-grid-3e0a3dd25285?gi=23e4ad99cff0). 
+
+A Photo Gallery with Vue & CSS Grid. 
+
 ## Project setup
 ```
 yarn install
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

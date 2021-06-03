@@ -1,6 +1,6 @@
 <template>
   <div class="gallery">
-    <div class="gallery-panel" v-for="card in cards" :key="card.id">
+    <div v-for="card in cards" :key="card.id">
       <router-link :to="`/card/${card.id}`">
       <img :src="thumbUrl(card.filename)">
       </router-link>
@@ -36,7 +36,7 @@ export default {
   padding: 0 5rem;
 }
 
-.gallery-panel img {
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
